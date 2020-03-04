@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>test.API</name>
+    </assembly>
+    <members>
+        <member name="M:test.API.Controllers.LoginController.Login(System.String,System.String)">
+            <summary>
+            登录
+            </summary>
+            <param name="a">账号</param>
+            <param name="b">密码</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
