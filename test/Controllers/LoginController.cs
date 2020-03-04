@@ -9,8 +9,10 @@ namespace test.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    
     public class LoginController : ControllerBase
     {
+        
         public LoginController()
         {
 
@@ -24,7 +26,8 @@ namespace test.API.Controllers
         [HttpGet]
         public ActionResult Login(string a,string b)
         {
-            return Ok("登录成功！");
+            string c = a + b;
+            return Ok(c);
         }
     }
 }

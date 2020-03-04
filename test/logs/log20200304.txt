@@ -1,0 +1,27 @@
+2020-03-04 14:38:28.086 +08:00 [INF] Now listening on: https://localhost:5001
+2020-03-04 14:38:28.196 +08:00 [INF] Now listening on: http://localhost:5000
+2020-03-04 14:38:28.198 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-04 14:38:28.201 +08:00 [INF] Hosting environment: Development
+2020-03-04 14:38:28.203 +08:00 [INF] Content root path: C:\Users\15565\Desktop\练习\test\test
+2020-03-04 14:38:29.460 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-03-04 14:38:30.090 +08:00 [INF] Request finished in 633.9185ms 200 text/html;charset=utf-8
+2020-03-04 14:38:31.339 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2020-03-04 14:38:31.550 +08:00 [INF] Request finished in 210.9743ms 200 application/json;charset=utf-8
+2020-03-04 14:39:56.595 +08:00 [INF] Now listening on: https://localhost:5001
+2020-03-04 14:39:56.712 +08:00 [INF] Now listening on: http://localhost:5000
+2020-03-04 14:39:56.714 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-04 14:39:56.715 +08:00 [INF] Hosting environment: Development
+2020-03-04 14:39:56.716 +08:00 [INF] Content root path: C:\Users\15565\Desktop\练习\test\test
+2020-03-04 14:39:57.106 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-03-04 14:39:57.351 +08:00 [INF] Request finished in 245.7649ms 200 text/html;charset=utf-8
+2020-03-04 14:39:58.181 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2020-03-04 14:39:58.323 +08:00 [INF] Request finished in 142.4431ms 200 application/json;charset=utf-8
+2020-03-04 14:40:17.351 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Login?a=aaa&b=bbb  
+2020-03-04 14:40:17.360 +08:00 [INF] Executing endpoint 'test.API.Controllers.LoginController.Login (test.API)'
+2020-03-04 14:40:17.411 +08:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String) on controller test.API.Controllers.LoginController (test.API).
+2020-03-04 14:40:17.856 +08:00 [INF] Executing action method test.API.Controllers.LoginController.Login (test.API) - Validation state: "Valid"
+2020-03-04 14:40:17.874 +08:00 [INF] Executed action method test.API.Controllers.LoginController.Login (test.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.0782ms.
+2020-03-04 14:40:17.887 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2020-03-04 14:40:17.902 +08:00 [INF] Executed action test.API.Controllers.LoginController.Login (test.API) in 478.3309ms
+2020-03-04 14:40:17.905 +08:00 [INF] Executed endpoint 'test.API.Controllers.LoginController.Login (test.API)'
+2020-03-04 14:40:17.908 +08:00 [INF] Request finished in 557.1751ms 200 text/plain; charset=utf-8
