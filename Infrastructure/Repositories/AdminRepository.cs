@@ -16,10 +16,13 @@ namespace Infrastructure.Repositories
         {
             _testContext = testContext;
         }
-        public void Insert(AdminRepository admin)
+        public void Insert(Admin admin)
         {
             _testContext.Add(admin);
         }
+
+        
+
         public async ValueTask<IEnumerable<Admin>> user(string username)
         {
             return await _testContext.Admin.Where(a=>a.Username==username).ToListAsync();
@@ -29,6 +32,6 @@ namespace Infrastructure.Repositories
             return await _testContext.Admin.FindAsync(id);
         }
 
-
+        
     }
 }

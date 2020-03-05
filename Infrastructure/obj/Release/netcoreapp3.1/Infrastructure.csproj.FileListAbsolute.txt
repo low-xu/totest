@@ -1,0 +1,13 @@
+C:\Users\15565\Desktop\练习\test\Infrastructure\bin\Release\netcoreapp3.1\Infrastructure.deps.json
+C:\Users\15565\Desktop\练习\test\Infrastructure\bin\Release\netcoreapp3.1\Infrastructure.runtimeconfig.json
+C:\Users\15565\Desktop\练习\test\Infrastructure\bin\Release\netcoreapp3.1\Infrastructure.runtimeconfig.dev.json
+C:\Users\15565\Desktop\练习\test\Infrastructure\bin\Release\netcoreapp3.1\Infrastructure.dll
+C:\Users\15565\Desktop\练习\test\Infrastructure\bin\Release\netcoreapp3.1\Infrastructure.pdb
+C:\Users\15565\Desktop\练习\test\Infrastructure\bin\Release\netcoreapp3.1\Model.dll
+C:\Users\15565\Desktop\练习\test\Infrastructure\bin\Release\netcoreapp3.1\Model.pdb
+C:\Users\15565\Desktop\练习\test\Infrastructure\obj\Release\netcoreapp3.1\Infrastructure.csprojAssemblyReference.cache
+C:\Users\15565\Desktop\练习\test\Infrastructure\obj\Release\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\15565\Desktop\练习\test\Infrastructure\obj\Release\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
+C:\Users\15565\Desktop\练习\test\Infrastructure\obj\Release\netcoreapp3.1\Infrastructure.csproj.CopyComplete
+C:\Users\15565\Desktop\练习\test\Infrastructure\obj\Release\netcoreapp3.1\Infrastructure.dll
+C:\Users\15565\Desktop\练习\test\Infrastructure\obj\Release\netcoreapp3.1\Infrastructure.pdb

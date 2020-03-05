@@ -10,7 +10,7 @@ namespace Infrastructure.Interfaces
    public interface IAdminRepository
     {
        void Insert(Admin admin);
-        Task<List<Admin>> user(string username);
+        ValueTask<IEnumerable<Admin>> user(string username);
         Task<Admin> user(int id);
 
     }

@@ -4,6 +4,21 @@
         <name>test.API</name>
     </assembly>
     <members>
-        <!-- Badly formed XML comment ignored for member "M:test.API.Controllers.LoginController.user(System.String)" -->
+        <member name="M:test.API.Controllers.LoginController.user(System.String)">
+            <summary>
+            登录
+            </summary>
+            <param name="username">账号</param>
+            
+            <returns></returns>
+        </member>
+        <member name="M:test.API.Controllers.LoginController.user(Model.Entities.Admin)">
+            <summary>
+            添加
+            </summary>
+            <param name="admin">用户数组</param>
+            <returns></returns>
+            <response code="1">查询成功</response>
+        </member>
     </members>
 </doc>

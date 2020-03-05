@@ -52,3 +52,676 @@
 2020-03-05 11:27:54.685 +08:00 [INF] Executed action test.API.Controllers.LoginController.user (test.API) in 111.6241ms
 2020-03-05 11:27:54.689 +08:00 [INF] Executed endpoint 'test.API.Controllers.LoginController.user (test.API)'
 2020-03-05 11:27:54.693 +08:00 [INF] Request finished in 173.0868ms 200 text/plain; charset=utf-8
+2020-03-05 13:27:02.472 +08:00 [INF] Now listening on: https://localhost:5001
+2020-03-05 13:27:02.544 +08:00 [INF] Now listening on: http://localhost:5000
+2020-03-05 13:27:02.546 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-05 13:27:02.548 +08:00 [INF] Hosting environment: Development
+2020-03-05 13:27:02.548 +08:00 [INF] Content root path: C:\Users\15565\Desktop\练习\test\test
+2020-03-05 13:27:03.272 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-03-05 13:27:03.428 +08:00 [INF] Request finished in 160.4184ms 200 text/html;charset=utf-8
+2020-03-05 13:27:04.070 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2020-03-05 13:27:04.257 +08:00 [INF] Request finished in 186.9177ms 200 application/json;charset=utf-8
+2020-03-05 13:31:34.977 +08:00 [INF] Now listening on: https://localhost:5001
+2020-03-05 13:31:35.048 +08:00 [INF] Now listening on: http://localhost:5000
+2020-03-05 13:31:35.050 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-05 13:31:35.051 +08:00 [INF] Hosting environment: Development
+2020-03-05 13:31:35.052 +08:00 [INF] Content root path: C:\Users\15565\Desktop\练习\test\test
+2020-03-05 13:31:35.727 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-03-05 13:31:35.868 +08:00 [INF] Request finished in 144.3449ms 200 text/html;charset=utf-8
+2020-03-05 13:31:36.583 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2020-03-05 13:31:36.702 +08:00 [INF] Request finished in 119.3101ms 200 application/json;charset=utf-8
+2020-03-05 13:32:30.505 +08:00 [INF] Now listening on: https://localhost:5001
+2020-03-05 13:32:30.565 +08:00 [INF] Now listening on: http://localhost:5000
+2020-03-05 13:32:30.567 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-05 13:32:30.568 +08:00 [INF] Hosting environment: Development
+2020-03-05 13:32:30.568 +08:00 [INF] Content root path: C:\Users\15565\Desktop\练习\test\test
+2020-03-05 13:32:31.154 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-03-05 13:32:31.313 +08:00 [INF] Request finished in 162.6095ms 200 text/html;charset=utf-8
+2020-03-05 13:32:32.011 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2020-03-05 13:32:32.243 +08:00 [INF] Request finished in 231.9419ms 200 application/json;charset=utf-8
+2020-03-05 13:36:26.869 +08:00 [INF] Now listening on: https://localhost:5001
+2020-03-05 13:36:26.944 +08:00 [INF] Now listening on: http://localhost:5000
+2020-03-05 13:36:26.946 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-05 13:36:26.947 +08:00 [INF] Hosting environment: Development
+2020-03-05 13:36:26.948 +08:00 [INF] Content root path: C:\Users\15565\Desktop\练习\test\test
+2020-03-05 13:36:27.518 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-03-05 13:36:27.679 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.FileNotFoundException: Could not find file 'C:\Users\15565\Desktop\练习\test\test\bin\Release\netcoreapp3.1\test.API.xml'.
+File name: 'C:\Users\15565\Desktop\练习\test\test\bin\Release\netcoreapp3.1\test.API.xml'
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.<>c__DisplayClass24_0.<IncludeXmlComments>b__0()
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, Func`1 xmlDocFactory, Boolean includeControllerXmlComments)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, String filePath, Boolean includeControllerXmlComments)
+   at test.Startup.<>c.<ConfigureServices>b__4_0(SwaggerGenOptions c) in C:\Users\15565\Desktop\练习\test\test\Startup.cs:line 44
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsManager`1.<>c__DisplayClass5_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsManager`1.Get(String name)
+   at Microsoft.Extensions.Options.OptionsManager`1.get_Value()
+   at Swashbuckle.AspNetCore.SwaggerGen.ConfigureSchemaGeneratorOptions..ctor(IServiceProvider serviceProvider, IOptions`1 swaggerGenOptionsAccessor)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitNoCache(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite singletonCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_2(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-03-05 13:36:27.845 +08:00 [INF] Request finished in 333.6372ms 500 text/html; charset=utf-8
+2020-03-05 13:36:28.231 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2020-03-05 13:36:28.236 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.FileNotFoundException: Could not find file 'C:\Users\15565\Desktop\练习\test\test\bin\Release\netcoreapp3.1\test.API.xml'.
+File name: 'C:\Users\15565\Desktop\练习\test\test\bin\Release\netcoreapp3.1\test.API.xml'
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.<>c__DisplayClass24_0.<IncludeXmlComments>b__0()
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, Func`1 xmlDocFactory, Boolean includeControllerXmlComments)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, String filePath, Boolean includeControllerXmlComments)
+   at test.Startup.<>c.<ConfigureServices>b__4_0(SwaggerGenOptions c) in C:\Users\15565\Desktop\练习\test\test\Startup.cs:line 44
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsManager`1.<>c__DisplayClass5_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitNoCache(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite singletonCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ILEmitResolverBuilder.Build(ServiceCallSite callSite)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CompiledServiceProviderEngine.RealizeService(ServiceCallSite callSite)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__1()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+2020-03-05 13:36:28.266 +08:00 [INF] Request finished in 35.2205ms 500 text/plain
+2020-03-05 13:38:06.773 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/login/user?userame=admin  
+2020-03-05 13:38:06.781 +08:00 [INF] Executing endpoint 'test.API.Controllers.LoginController.user (test.API)'
+2020-03-05 13:38:06.862 +08:00 [INF] Route matched with {action = "user", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult user(System.String) on controller test.API.Controllers.LoginController (test.API).
+2020-03-05 13:38:06.875 +08:00 [INF] Executed action test.API.Controllers.LoginController.user (test.API) in 3.1074ms
+2020-03-05 13:38:06.883 +08:00 [INF] Executed endpoint 'test.API.Controllers.LoginController.user (test.API)'
+2020-03-05 13:38:06.886 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Infrastructure.Interfaces.IAdminRepository' while attempting to activate 'test.API.Controllers.LoginController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-03-05 13:38:06.905 +08:00 [INF] Request finished in 132.8939ms 500 text/html; charset=utf-8
+2020-03-05 13:38:07.000 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2020-03-05 13:38:07.004 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.FileNotFoundException: Could not find file 'C:\Users\15565\Desktop\练习\test\test\bin\Release\netcoreapp3.1\test.API.xml'.
+File name: 'C:\Users\15565\Desktop\练习\test\test\bin\Release\netcoreapp3.1\test.API.xml'
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.<>c__DisplayClass24_0.<IncludeXmlComments>b__0()
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, Func`1 xmlDocFactory, Boolean includeControllerXmlComments)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, String filePath, Boolean includeControllerXmlComments)
+   at test.Startup.<>c.<ConfigureServices>b__4_0(SwaggerGenOptions c) in C:\Users\15565\Desktop\练习\test\test\Startup.cs:line 44
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsManager`1.<>c__DisplayClass5_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsManager`1.Get(String name)
+   at Microsoft.Extensions.Options.OptionsManager`1.get_Value()
+   at Swashbuckle.AspNetCore.SwaggerGen.ConfigureSchemaGeneratorOptions..ctor(IServiceProvider serviceProvider, IOptions`1 swaggerGenOptionsAccessor)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitNoCache(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite singletonCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_2(IServiceProvider s)
+   at ResolveService(ILEmitResolverBuilderRuntimeContext , ServiceProviderEngineScope )
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-03-05 13:38:07.034 +08:00 [INF] Request finished in 34.3514ms 500 text/plain
+2020-03-05 13:38:26.967 +08:00 [INF] Now listening on: https://localhost:5001
+2020-03-05 13:38:27.035 +08:00 [INF] Now listening on: http://localhost:5000
+2020-03-05 13:38:27.037 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-05 13:38:27.040 +08:00 [INF] Hosting environment: Development
+2020-03-05 13:38:27.042 +08:00 [INF] Content root path: C:\Users\15565\Desktop\练习\test\test
+2020-03-05 13:38:27.695 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-03-05 13:38:27.832 +08:00 [INF] Request finished in 142.1302ms 200 text/html;charset=utf-8
+2020-03-05 13:38:28.515 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2020-03-05 13:38:28.687 +08:00 [INF] Request finished in 172.3841ms 200 application/json;charset=utf-8
+2020-03-05 13:39:14.781 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Login/user?username=admin  
+2020-03-05 13:39:14.788 +08:00 [INF] Executing endpoint 'test.API.Controllers.LoginController.user (test.API)'
+2020-03-05 13:39:14.881 +08:00 [INF] Route matched with {action = "user", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult user(System.String) on controller test.API.Controllers.LoginController (test.API).
+2020-03-05 13:39:14.893 +08:00 [INF] Executed action test.API.Controllers.LoginController.user (test.API) in 2.4869ms
+2020-03-05 13:39:14.900 +08:00 [INF] Executed endpoint 'test.API.Controllers.LoginController.user (test.API)'
+2020-03-05 13:39:14.904 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Infrastructure.Interfaces.IAdminRepository' while attempting to activate 'test.API.Controllers.LoginController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-03-05 13:39:15.017 +08:00 [INF] Request finished in 237.1517ms 500 text/html; charset=utf-8
+2020-03-05 13:39:15.219 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2020-03-05 13:39:15.222 +08:00 [INF] Request finished in 3.3761ms 404 
+2020-03-05 13:39:29.091 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Login/user/username=admin  
+2020-03-05 13:39:29.097 +08:00 [INF] Request finished in 6.0438ms 404 
+2020-03-05 13:39:40.631 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-03-05 13:39:40.638 +08:00 [INF] Request finished in 8.467ms 200 text/html;charset=utf-8
+2020-03-05 13:39:40.984 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2020-03-05 13:39:40.989 +08:00 [INF] Request finished in 5.3921ms 200 application/json;charset=utf-8
+2020-03-05 13:41:30.732 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Login/user?username=admin  
+2020-03-05 13:41:30.736 +08:00 [INF] Executing endpoint 'test.API.Controllers.LoginController.user (test.API)'
+2020-03-05 13:41:30.738 +08:00 [INF] Route matched with {action = "user", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult user(System.String) on controller test.API.Controllers.LoginController (test.API).
+2020-03-05 13:41:30.743 +08:00 [INF] Executed action test.API.Controllers.LoginController.user (test.API) in 1.209ms
+2020-03-05 13:41:30.746 +08:00 [INF] Executed endpoint 'test.API.Controllers.LoginController.user (test.API)'
+2020-03-05 13:41:30.748 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Infrastructure.Interfaces.IAdminRepository' while attempting to activate 'test.API.Controllers.LoginController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-03-05 13:41:30.762 +08:00 [INF] Request finished in 29.7269ms 500 text/plain
+2020-03-05 13:42:12.583 +08:00 [INF] Now listening on: https://localhost:5001
+2020-03-05 13:42:12.691 +08:00 [INF] Now listening on: http://localhost:5000
+2020-03-05 13:42:12.693 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-05 13:42:12.694 +08:00 [INF] Hosting environment: Development
+2020-03-05 13:42:12.695 +08:00 [INF] Content root path: C:\Users\15565\Desktop\练习\test\test
+2020-03-05 13:42:13.364 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-03-05 13:42:13.515 +08:00 [INF] Request finished in 156.2257ms 200 text/html;charset=utf-8
+2020-03-05 13:42:14.189 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2020-03-05 13:42:14.329 +08:00 [INF] Request finished in 139.8085ms 200 application/json;charset=utf-8
+2020-03-05 13:42:21.313 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Login?username=admin  
+2020-03-05 13:42:21.321 +08:00 [INF] Executing endpoint 'test.API.Controllers.LoginController.user (test.API)'
+2020-03-05 13:42:21.374 +08:00 [INF] Route matched with {action = "user", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult user(System.String) on controller test.API.Controllers.LoginController (test.API).
+2020-03-05 13:42:21.388 +08:00 [INF] Executed action test.API.Controllers.LoginController.user (test.API) in 3.2159ms
+2020-03-05 13:42:21.394 +08:00 [INF] Executed endpoint 'test.API.Controllers.LoginController.user (test.API)'
+2020-03-05 13:42:21.401 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Infrastructure.Interfaces.IAdminRepository' while attempting to activate 'test.API.Controllers.LoginController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-03-05 13:42:21.501 +08:00 [INF] Request finished in 188.6002ms 500 text/plain
+2020-03-05 13:42:33.476 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Login?username=admin  
+2020-03-05 13:42:33.479 +08:00 [INF] Executing endpoint 'test.API.Controllers.LoginController.user (test.API)'
+2020-03-05 13:42:33.481 +08:00 [INF] Route matched with {action = "user", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult user(System.String) on controller test.API.Controllers.LoginController (test.API).
+2020-03-05 13:42:33.486 +08:00 [INF] Executed action test.API.Controllers.LoginController.user (test.API) in 1.3312ms
+2020-03-05 13:42:33.488 +08:00 [INF] Executed endpoint 'test.API.Controllers.LoginController.user (test.API)'
+2020-03-05 13:42:33.490 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Infrastructure.Interfaces.IAdminRepository' while attempting to activate 'test.API.Controllers.LoginController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-03-05 13:42:33.561 +08:00 [INF] Request finished in 86.9228ms 500 text/html; charset=utf-8
+2020-03-05 13:48:37.959 +08:00 [INF] Now listening on: https://localhost:5001
+2020-03-05 13:48:38.037 +08:00 [INF] Now listening on: http://localhost:5000
+2020-03-05 13:48:38.040 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-05 13:48:38.040 +08:00 [INF] Hosting environment: Development
+2020-03-05 13:48:38.041 +08:00 [INF] Content root path: C:\Users\15565\Desktop\练习\test\test
+2020-03-05 13:48:38.731 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-03-05 13:48:38.862 +08:00 [INF] Request finished in 133.6545ms 200 text/html;charset=utf-8
+2020-03-05 13:48:39.579 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2020-03-05 13:48:39.724 +08:00 [INF] Request finished in 144.9378ms 200 application/json;charset=utf-8
+2020-03-05 13:48:46.810 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Login?username=admin  
+2020-03-05 13:48:46.818 +08:00 [INF] Executing endpoint 'test.API.Controllers.LoginController.user (test.API)'
+2020-03-05 13:48:46.861 +08:00 [INF] Route matched with {action = "user", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult user(System.String) on controller test.API.Controllers.LoginController (test.API).
+2020-03-05 13:48:47.086 +08:00 [INF] Executing action method test.API.Controllers.LoginController.user (test.API) - Validation state: "Valid"
+2020-03-05 13:49:49.481 +08:00 [INF] Now listening on: https://localhost:5001
+2020-03-05 13:49:49.538 +08:00 [INF] Now listening on: http://localhost:5000
+2020-03-05 13:49:49.540 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-05 13:49:49.541 +08:00 [INF] Hosting environment: Development
+2020-03-05 13:49:49.541 +08:00 [INF] Content root path: C:\Users\15565\Desktop\练习\test\test
+2020-03-05 13:49:49.946 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-03-05 13:49:50.085 +08:00 [INF] Request finished in 142.3929ms 200 text/html;charset=utf-8
+2020-03-05 13:49:50.759 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2020-03-05 13:49:50.885 +08:00 [INF] Request finished in 126.6633ms 200 application/json;charset=utf-8
+2020-03-05 13:50:02.160 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Login?username=admin  
+2020-03-05 13:50:02.169 +08:00 [INF] Executing endpoint 'test.API.Controllers.LoginController.user (test.API)'
+2020-03-05 13:50:02.216 +08:00 [INF] Route matched with {action = "user", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult user(System.String) on controller test.API.Controllers.LoginController (test.API).
+2020-03-05 13:50:02.405 +08:00 [INF] Executing action method test.API.Controllers.LoginController.user (test.API) - Validation state: "Valid"
+2020-03-05 13:50:04.312 +08:00 [INF] Executed action method test.API.Controllers.LoginController.user (test.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1888.4231ms.
+2020-03-05 13:50:04.321 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Threading.Tasks.ValueTask`1[[System.Collections.Generic.IEnumerable`1[[Model.Entities.Admin, Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-03-05 13:50:04.557 +08:00 [INF] Executed action test.API.Controllers.LoginController.user (test.API) in 2330.6993ms
+2020-03-05 13:50:04.560 +08:00 [INF] Executed endpoint 'test.API.Controllers.LoginController.user (test.API)'
+2020-03-05 13:50:04.569 +08:00 [INF] Request finished in 2409.0017ms 200 application/json; charset=utf-8
+2020-03-05 13:51:28.063 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Login?username=admin  
+2020-03-05 13:51:28.066 +08:00 [INF] Executing endpoint 'test.API.Controllers.LoginController.user (test.API)'
+2020-03-05 13:51:28.070 +08:00 [INF] Route matched with {action = "user", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult user(System.String) on controller test.API.Controllers.LoginController (test.API).
+2020-03-05 13:51:28.095 +08:00 [INF] Executing action method test.API.Controllers.LoginController.user (test.API) - Validation state: "Valid"
+2020-03-05 13:51:28.180 +08:00 [INF] Executed action method test.API.Controllers.LoginController.user (test.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 81.7622ms.
+2020-03-05 13:51:28.184 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Threading.Tasks.ValueTask`1[[System.Collections.Generic.IEnumerable`1[[Model.Entities.Admin, Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-03-05 13:51:28.284 +08:00 [INF] Executed action test.API.Controllers.LoginController.user (test.API) in 210.2947ms
+2020-03-05 13:51:28.285 +08:00 [INF] Executed endpoint 'test.API.Controllers.LoginController.user (test.API)'
+2020-03-05 13:51:28.289 +08:00 [INF] Request finished in 226.0632ms 200 application/json; charset=utf-8
+2020-03-05 13:52:08.405 +08:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Login application/json 78
+2020-03-05 13:52:08.408 +08:00 [INF] Executing endpoint 'test.API.Controllers.LoginController.user (test.API)'
+2020-03-05 13:52:08.436 +08:00 [INF] Route matched with {action = "user", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] user(Model.Entities.Admin) on controller test.API.Controllers.LoginController (test.API).
+2020-03-05 13:52:08.487 +08:00 [INF] Executing action method test.API.Controllers.LoginController.user (test.API) - Validation state: "Valid"
+2020-03-05 13:52:08.746 +08:00 [INF] Executed action method test.API.Controllers.LoginController.user (test.API), returned result Microsoft.AspNetCore.Mvc.OkResult in 255.7304ms.
+2020-03-05 13:52:08.755 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2020-03-05 13:52:08.758 +08:00 [INF] Executed action test.API.Controllers.LoginController.user (test.API) in 317.5921ms
+2020-03-05 13:52:08.760 +08:00 [INF] Executed endpoint 'test.API.Controllers.LoginController.user (test.API)'
+2020-03-05 13:52:08.765 +08:00 [INF] Request finished in 360.4809ms 200 
+2020-03-05 13:52:21.952 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Login?username=aaaa  
+2020-03-05 13:52:21.955 +08:00 [INF] Executing endpoint 'test.API.Controllers.LoginController.user (test.API)'
+2020-03-05 13:52:21.959 +08:00 [INF] Route matched with {action = "user", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult user(System.String) on controller test.API.Controllers.LoginController (test.API).
+2020-03-05 13:52:21.986 +08:00 [INF] Executing action method test.API.Controllers.LoginController.user (test.API) - Validation state: "Valid"
+2020-03-05 13:52:21.998 +08:00 [INF] Executed action method test.API.Controllers.LoginController.user (test.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 8.0848ms.
+2020-03-05 13:52:22.003 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Threading.Tasks.ValueTask`1[[System.Collections.Generic.IEnumerable`1[[Model.Entities.Admin, Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-03-05 13:52:22.007 +08:00 [INF] Executed action test.API.Controllers.LoginController.user (test.API) in 44.5055ms
+2020-03-05 13:52:22.009 +08:00 [INF] Executed endpoint 'test.API.Controllers.LoginController.user (test.API)'
+2020-03-05 13:52:22.010 +08:00 [INF] Request finished in 59.1267ms 200 application/json; charset=utf-8
+2020-03-05 13:53:37.584 +08:00 [INF] Now listening on: https://localhost:5001
+2020-03-05 13:53:37.656 +08:00 [INF] Now listening on: http://localhost:5000
+2020-03-05 13:53:37.658 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-05 13:53:37.660 +08:00 [INF] Hosting environment: Development
+2020-03-05 13:53:37.686 +08:00 [INF] Content root path: C:\Users\15565\Desktop\练习\test\test
+2020-03-05 13:53:38.107 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-03-05 13:53:38.189 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.FileNotFoundException: Could not find file 'C:\Users\15565\Desktop\练习\test\test\bin\Release\netcoreapp3.1\test.API.xml'.
+File name: 'C:\Users\15565\Desktop\练习\test\test\bin\Release\netcoreapp3.1\test.API.xml'
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.<>c__DisplayClass24_0.<IncludeXmlComments>b__0()
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, Func`1 xmlDocFactory, Boolean includeControllerXmlComments)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, String filePath, Boolean includeControllerXmlComments)
+   at test.Startup.<>c.<ConfigureServices>b__4_0(SwaggerGenOptions c) in C:\Users\15565\Desktop\练习\test\test\Startup.cs:line 46
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsManager`1.<>c__DisplayClass5_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsManager`1.Get(String name)
+   at Microsoft.Extensions.Options.OptionsManager`1.get_Value()
+   at Swashbuckle.AspNetCore.SwaggerGen.ConfigureSchemaGeneratorOptions..ctor(IServiceProvider serviceProvider, IOptions`1 swaggerGenOptionsAccessor)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitNoCache(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite singletonCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_2(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-03-05 13:53:38.343 +08:00 [INF] Request finished in 239.4861ms 500 text/html; charset=utf-8
+2020-03-05 13:54:02.661 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Login?username=aaaa  
+2020-03-05 13:54:02.674 +08:00 [INF] Executing endpoint 'test.API.Controllers.LoginController.user (test.API)'
+2020-03-05 13:54:02.745 +08:00 [INF] Route matched with {action = "user", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult user(System.String) on controller test.API.Controllers.LoginController (test.API).
+2020-03-05 13:54:02.940 +08:00 [INF] Executing action method test.API.Controllers.LoginController.user (test.API) - Validation state: "Valid"
+2020-03-05 13:54:04.663 +08:00 [INF] Executed action method test.API.Controllers.LoginController.user (test.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1708.6842ms.
+2020-03-05 13:54:04.687 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Threading.Tasks.ValueTask`1[[System.Collections.Generic.IEnumerable`1[[Model.Entities.Admin, Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2020-03-05 13:54:04.942 +08:00 [INF] Executed action test.API.Controllers.LoginController.user (test.API) in 2185.4485ms
+2020-03-05 13:54:04.944 +08:00 [INF] Executed endpoint 'test.API.Controllers.LoginController.user (test.API)'
+2020-03-05 13:54:04.952 +08:00 [INF] Request finished in 2292.2825ms 200 application/json; charset=utf-8
+2020-03-05 13:54:21.248 +08:00 [INF] Now listening on: https://localhost:5001
+2020-03-05 13:54:21.319 +08:00 [INF] Now listening on: http://localhost:5000
+2020-03-05 13:54:21.320 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-05 13:54:21.321 +08:00 [INF] Hosting environment: Development
+2020-03-05 13:54:21.322 +08:00 [INF] Content root path: C:\Users\15565\Desktop\练习\test\test
+2020-03-05 13:54:21.821 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-03-05 13:54:21.901 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.FileNotFoundException: Could not find file 'C:\Users\15565\Desktop\练习\test\test\bin\Release\netcoreapp3.1\test.API.xml'.
+File name: 'C:\Users\15565\Desktop\练习\test\test\bin\Release\netcoreapp3.1\test.API.xml'
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.<>c__DisplayClass24_0.<IncludeXmlComments>b__0()
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, Func`1 xmlDocFactory, Boolean includeControllerXmlComments)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, String filePath, Boolean includeControllerXmlComments)
+   at test.Startup.<>c.<ConfigureServices>b__4_0(SwaggerGenOptions c) in C:\Users\15565\Desktop\练习\test\test\Startup.cs:line 46
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsManager`1.<>c__DisplayClass5_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsManager`1.Get(String name)
+   at Microsoft.Extensions.Options.OptionsManager`1.get_Value()
+   at Swashbuckle.AspNetCore.SwaggerGen.ConfigureSchemaGeneratorOptions..ctor(IServiceProvider serviceProvider, IOptions`1 swaggerGenOptionsAccessor)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitNoCache(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite singletonCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_2(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-03-05 13:54:22.055 +08:00 [INF] Request finished in 235.1738ms 500 text/html; charset=utf-8
+2020-03-05 14:04:32.883 +08:00 [INF] Now listening on: https://localhost:5001
+2020-03-05 14:04:32.999 +08:00 [INF] Now listening on: http://localhost:5000
+2020-03-05 14:04:33.001 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-05 14:04:33.003 +08:00 [INF] Hosting environment: Development
+2020-03-05 14:04:33.005 +08:00 [INF] Content root path: C:\Users\15565\Desktop\练习\test\test
+2020-03-05 14:04:33.851 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-03-05 14:04:33.950 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.FileNotFoundException: Could not find file 'C:\Users\15565\Desktop\练习\test\test\bin\Release\netcoreapp3.1\test.API.xml'.
+File name: 'C:\Users\15565\Desktop\练习\test\test\bin\Release\netcoreapp3.1\test.API.xml'
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.<>c__DisplayClass24_0.<IncludeXmlComments>b__0()
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, Func`1 xmlDocFactory, Boolean includeControllerXmlComments)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, String filePath, Boolean includeControllerXmlComments)
+   at test.Startup.<>c.<ConfigureServices>b__4_0(SwaggerGenOptions c) in C:\Users\15565\Desktop\练习\test\test\Startup.cs:line 46
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsManager`1.<>c__DisplayClass5_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsManager`1.Get(String name)
+   at Microsoft.Extensions.Options.OptionsManager`1.get_Value()
+   at Swashbuckle.AspNetCore.SwaggerGen.ConfigureSchemaGeneratorOptions..ctor(IServiceProvider serviceProvider, IOptions`1 swaggerGenOptionsAccessor)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitNoCache(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite singletonCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_2(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-03-05 14:04:34.223 +08:00 [INF] Request finished in 377.5726ms 500 text/html; charset=utf-8
+2020-03-05 14:04:52.295 +08:00 [INF] Now listening on: https://localhost:5001
+2020-03-05 14:04:52.367 +08:00 [INF] Now listening on: http://localhost:5000
+2020-03-05 14:04:52.369 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-05 14:04:52.370 +08:00 [INF] Hosting environment: Development
+2020-03-05 14:04:52.371 +08:00 [INF] Content root path: C:\Users\15565\Desktop\练习\test\test
+2020-03-05 14:04:53.131 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-03-05 14:04:53.311 +08:00 [INF] Request finished in 183.1564ms 200 text/html;charset=utf-8
+2020-03-05 14:04:54.352 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2020-03-05 14:04:54.413 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png  
+2020-03-05 14:04:54.446 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2020-03-05 14:04:54.447 +08:00 [INF] Request finished in 34.0649ms 200 image/png
+2020-03-05 14:04:54.451 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-16x16.png  
+2020-03-05 14:04:54.453 +08:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2020-03-05 14:04:54.457 +08:00 [INF] Request finished in 5.9363ms 200 image/png
+2020-03-05 14:04:54.579 +08:00 [INF] Request finished in 227.3951ms 200 application/json;charset=utf-8
+2020-03-05 14:14:48.745 +08:00 [INF] Now listening on: https://localhost:5001
+2020-03-05 14:14:48.825 +08:00 [INF] Now listening on: http://localhost:5000
+2020-03-05 14:14:48.826 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-05 14:14:48.827 +08:00 [INF] Hosting environment: Development
+2020-03-05 14:14:48.828 +08:00 [INF] Content root path: C:\Users\15565\Desktop\练习\test\test
+2020-03-05 14:14:49.721 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-03-05 14:14:50.036 +08:00 [INF] Request finished in 319.1927ms 200 text/html;charset=utf-8
+2020-03-05 14:14:50.630 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2020-03-05 14:14:50.789 +08:00 [INF] Request finished in 158.3738ms 200 application/json;charset=utf-8
