@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test.API", "test\test.API.csproj", "{7F97D28C-8340-4215-9E72-867629F2404D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DATA", "DATA\DATA.csproj", "{C68161D1-DC13-4C05-9448-43C178B5AE99}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "DATA\Model.csproj", "{C68161D1-DC13-4C05-9448-43C178B5AE99}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{59F43FAA-1588-452D-97ED-8E17AD2865CA}"
 EndProject

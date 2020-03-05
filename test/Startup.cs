@@ -7,12 +7,14 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.PlatformAbstractions;
 using Microsoft.OpenApi.Models;
+using Model.Data;
 
 namespace test
 {
@@ -29,6 +31,9 @@ namespace test
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            //上下文类注册
+            var connection = Configuration.GetConnectionString("MysqlConnection");
+            services.AddDbContext<testContext>(options => options.UseMySql(connection));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
@@ -37,6 +42,7 @@ namespace test
                 var xmlPath = Path.Combine(basePath, "test.API.xml");
                 c.IncludeXmlComments(xmlPath);
             });
+            services.AddScoped<testContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

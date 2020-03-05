@@ -4,12 +4,12 @@
     "C:\\Users\\15565\\Desktop\\练习\\test\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\15565\\Desktop\\练习\\test\\DATA\\DATA.csproj": {
+    "C:\\Users\\15565\\Desktop\\练习\\test\\DATA\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\15565\\Desktop\\练习\\test\\DATA\\DATA.csproj",
-        "projectName": "DATA",
-        "projectPath": "C:\\Users\\15565\\Desktop\\练习\\test\\DATA\\DATA.csproj",
+        "projectUniqueName": "C:\\Users\\15565\\Desktop\\练习\\test\\DATA\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "C:\\Users\\15565\\Desktop\\练习\\test\\DATA\\Model.csproj",
         "packagesPath": "C:\\Users\\15565\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\15565\\Desktop\\练习\\test\\DATA\\obj\\",
         "projectStyle": "PackageReference",
@@ -41,6 +41,30 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.19, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "Serilog": {
               "target": "Package",
               "version": "[2.9.0, )"
@@ -110,8 +134,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\15565\\Desktop\\练习\\test\\DATA\\DATA.csproj": {
-                "projectPath": "C:\\Users\\15565\\Desktop\\练习\\test\\DATA\\DATA.csproj"
+              "C:\\Users\\15565\\Desktop\\练习\\test\\DATA\\Model.csproj": {
+                "projectPath": "C:\\Users\\15565\\Desktop\\练习\\test\\DATA\\Model.csproj"
               }
             }
           }
@@ -125,6 +149,16 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "Serilog": {
               "target": "Package",
               "version": "[2.9.0, )"

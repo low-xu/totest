@@ -1,0 +1,10 @@
+C:\Users\15565\Desktop\练习\test\DATA\bin\Debug\netcoreapp3.1\Model.deps.json
+C:\Users\15565\Desktop\练习\test\DATA\bin\Debug\netcoreapp3.1\Model.dll
+C:\Users\15565\Desktop\练习\test\DATA\bin\Debug\netcoreapp3.1\Model.pdb
+C:\Users\15565\Desktop\练习\test\DATA\obj\Debug\netcoreapp3.1\Model.AssemblyInfoInputs.cache
+C:\Users\15565\Desktop\练习\test\DATA\obj\Debug\netcoreapp3.1\Model.AssemblyInfo.cs
+C:\Users\15565\Desktop\练习\test\DATA\obj\Debug\netcoreapp3.1\Model.dll
+C:\Users\15565\Desktop\练习\test\DATA\obj\Debug\netcoreapp3.1\Model.pdb
+C:\Users\15565\Desktop\练习\test\DATA\obj\Debug\netcoreapp3.1\Model.csprojAssemblyReference.cache
+C:\Users\15565\Desktop\练习\test\DATA\bin\Debug\netcoreapp3.1\Model.runtimeconfig.json
+C:\Users\15565\Desktop\练习\test\DATA\bin\Debug\netcoreapp3.1\Model.runtimeconfig.dev.json
