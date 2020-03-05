@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>test.API</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "M:test.API.Controllers.LoginController.user(System.String)" -->
+    </members>
+</doc>

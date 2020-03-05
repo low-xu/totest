@@ -1,0 +1,54 @@
+2020-03-05 10:48:26.828 +08:00 [INF] Now listening on: https://localhost:5001
+2020-03-05 10:48:26.899 +08:00 [INF] Now listening on: http://localhost:5000
+2020-03-05 10:48:26.901 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-05 10:48:26.902 +08:00 [INF] Hosting environment: Development
+2020-03-05 10:48:26.904 +08:00 [INF] Content root path: C:\Users\15565\Desktop\练习\test\test
+2020-03-05 10:48:27.633 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-03-05 10:48:27.906 +08:00 [INF] Request finished in 275.0125ms 200 text/html;charset=utf-8
+2020-03-05 10:48:27.943 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2020-03-05 10:48:27.943 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2020-03-05 10:48:27.943 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2020-03-05 10:48:28.028 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2020-03-05 10:48:28.028 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2020-03-05 10:48:28.037 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2020-03-05 10:48:28.037 +08:00 [INF] Request finished in 93.9617ms 200 text/css
+2020-03-05 10:48:28.037 +08:00 [INF] Request finished in 93.9623ms 200 application/javascript
+2020-03-05 10:48:28.040 +08:00 [INF] Request finished in 96.9161ms 200 application/javascript
+2020-03-05 10:48:28.750 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2020-03-05 10:48:28.908 +08:00 [INF] Request finished in 158.1595ms 200 application/json;charset=utf-8
+2020-03-05 11:26:28.602 +08:00 [INF] Now listening on: https://localhost:5001
+2020-03-05 11:26:28.721 +08:00 [INF] Now listening on: http://localhost:5000
+2020-03-05 11:26:28.723 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-05 11:26:28.735 +08:00 [INF] Hosting environment: Development
+2020-03-05 11:26:28.738 +08:00 [INF] Content root path: C:\Users\15565\Desktop\练习\test\test
+2020-03-05 11:26:29.632 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-03-05 11:26:29.788 +08:00 [INF] Request finished in 160.7622ms 200 text/html;charset=utf-8
+2020-03-05 11:26:30.438 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2020-03-05 11:26:30.564 +08:00 [INF] Request finished in 126.0483ms 200 application/json;charset=utf-8
+2020-03-05 11:26:47.523 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Login?username=1  
+2020-03-05 11:26:47.534 +08:00 [INF] Executing endpoint 'test.API.Controllers.LoginController.user (test.API)'
+2020-03-05 11:26:47.583 +08:00 [INF] Route matched with {action = "user", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult user(System.String) on controller test.API.Controllers.LoginController (test.API).
+2020-03-05 11:26:47.738 +08:00 [INF] Executing action method test.API.Controllers.LoginController.user (test.API) - Validation state: "Valid"
+2020-03-05 11:26:47.754 +08:00 [INF] Executed action method test.API.Controllers.LoginController.user (test.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.9084ms.
+2020-03-05 11:26:47.765 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2020-03-05 11:26:47.781 +08:00 [INF] Executed action test.API.Controllers.LoginController.user (test.API) in 183.9736ms
+2020-03-05 11:26:47.783 +08:00 [INF] Executed endpoint 'test.API.Controllers.LoginController.user (test.API)'
+2020-03-05 11:26:47.786 +08:00 [INF] Request finished in 263.6001ms 200 text/plain; charset=utf-8
+2020-03-05 11:27:44.082 +08:00 [INF] Now listening on: https://localhost:5001
+2020-03-05 11:27:44.181 +08:00 [INF] Now listening on: http://localhost:5000
+2020-03-05 11:27:44.182 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-05 11:27:44.183 +08:00 [INF] Hosting environment: Development
+2020-03-05 11:27:44.184 +08:00 [INF] Content root path: C:\Users\15565\Desktop\练习\test\test
+2020-03-05 11:27:44.586 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2020-03-05 11:27:44.713 +08:00 [INF] Request finished in 131.8012ms 200 text/html;charset=utf-8
+2020-03-05 11:27:45.442 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2020-03-05 11:27:45.568 +08:00 [INF] Request finished in 125.3154ms 200 application/json;charset=utf-8
+2020-03-05 11:27:54.520 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Login?username=12  
+2020-03-05 11:27:54.528 +08:00 [INF] Executing endpoint 'test.API.Controllers.LoginController.user (test.API)'
+2020-03-05 11:27:54.565 +08:00 [INF] Route matched with {action = "user", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult user(System.String) on controller test.API.Controllers.LoginController (test.API).
+2020-03-05 11:27:54.654 +08:00 [INF] Executing action method test.API.Controllers.LoginController.user (test.API) - Validation state: "Valid"
+2020-03-05 11:27:54.667 +08:00 [INF] Executed action method test.API.Controllers.LoginController.user (test.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.2615ms.
+2020-03-05 11:27:54.677 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2020-03-05 11:27:54.685 +08:00 [INF] Executed action test.API.Controllers.LoginController.user (test.API) in 111.6241ms
+2020-03-05 11:27:54.689 +08:00 [INF] Executed endpoint 'test.API.Controllers.LoginController.user (test.API)'
+2020-03-05 11:27:54.693 +08:00 [INF] Request finished in 173.0868ms 200 text/plain; charset=utf-8

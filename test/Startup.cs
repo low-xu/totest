@@ -14,7 +14,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.PlatformAbstractions;
 using Microsoft.OpenApi.Models;
-using Model.Data;
+using Model.Entities;
 
 namespace test
 {
@@ -32,8 +32,8 @@ namespace test
         {
             services.AddControllers();
             //上下文类注册
-            var connection = Configuration.GetConnectionString("MysqlConnection");
-            services.AddDbContext<testContext>(options => options.UseMySql(connection));
+            //var connection = Configuration.GetConnectionString("MysqlConnection");
+            //services.AddDbContext<testContext>(options => options.UseMySql(connection));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });

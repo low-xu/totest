@@ -7,3 +7,4 @@ C:\Users\15565\Desktop\练习\test\DATA\obj\Debug\netcoreapp3.1\Model.dll
 C:\Users\15565\Desktop\练习\test\DATA\obj\Debug\netcoreapp3.1\Model.pdb
 C:\Users\15565\Desktop\练习\test\DATA\bin\Debug\netcoreapp3.1\Model.runtimeconfig.json
 C:\Users\15565\Desktop\练习\test\DATA\bin\Debug\netcoreapp3.1\Model.runtimeconfig.dev.json
+C:\Users\15565\Desktop\练习\test\DATA\obj\Debug\netcoreapp3.1\Model.csprojAssemblyReference.cache

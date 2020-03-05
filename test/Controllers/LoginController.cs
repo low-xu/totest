@@ -20,14 +20,19 @@ namespace test.API.Controllers
         /// <summary>
         /// 登录
         /// </summary>
-        /// <param name="a">账号</param>
-        /// <param name="b">密码</param>
+        /// <param name="username">账号</param>
+        /// 
         /// <returns></returns>
         [HttpGet]
-        public ActionResult Login(string a,string b)
+        public ActionResult user(string username)
         {
-            string c = a + b;
-            return Ok(c);
+            
+            return Ok(a);
         }
+        //[HttpPost]
+        //public ActionResult user(Admin admin)
+        //{ 
+        
+        //}
     }
 }
