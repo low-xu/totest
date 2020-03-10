@@ -6,7 +6,7 @@
     <members>
         <member name="M:test.API.Controllers.LoginController.user(System.String)">
             <summary>
-            登录
+            查询
             </summary>
             <param name="username">账号</param>
             
@@ -19,6 +19,13 @@
             <param name="admin">用户数组</param>
             <returns></returns>
             <response code="1">查询成功</response>
+        </member>
+        <member name="M:test.API.Controllers.LoginController.Del(System.Int32)">
+            <summary>
+            删除
+            </summary>
+            <param name="id">序号</param>
+            <returns></returns>
         </member>
     </members>
 </doc>

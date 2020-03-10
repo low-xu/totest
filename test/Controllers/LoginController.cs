@@ -22,7 +22,7 @@ namespace test.API.Controllers
             _unitOfWork = unitOfWork;
         }
         /// <summary>
-        /// 登录
+        /// 查询
         /// </summary>
         /// <param name="username">账号</param>
         /// 
@@ -45,8 +45,30 @@ namespace test.API.Controllers
             _adminRepository.Insert(admin);
           await  _unitOfWork.SaveAsync();
             return Ok();
-
         }
+        /// <summary>
+        /// 删除
+        /// </summary>
+        /// <param name="id">序号</param>
+        /// <returns></returns>
+        [HttpDelete]
+        public async Task<ActionResult> Del(int id)
+        {
+            
+            if (_adminRepository.Del(id))
+            {
+                await _unitOfWork.SaveAsync();
+                return Ok("删除成功");
+
+            }
+            else
+            {
+                return Ok("删除失败");
+            }
+            
+            
+        }
+        
 
     }
 }

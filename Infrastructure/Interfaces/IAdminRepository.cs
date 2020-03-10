@@ -12,6 +12,6 @@ namespace Infrastructure.Interfaces
        void Insert(Admin admin);
         ValueTask<IEnumerable<Admin>> user(string username);
         Task<Admin> user(int id);
-
+        bool Del(int id);
     }
 }

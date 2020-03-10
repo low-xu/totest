@@ -31,7 +31,31 @@ namespace Infrastructure.Repositories
         {
             return await _testContext.Admin.FindAsync(id);
         }
+        public  bool Del(int id)
+        {
+            var ad = _testContext.Admin.Find(id);
+            if (ad==null)
+            {
+                return  false;
+            }
+            else
+            {
+                _testContext.Admin.Remove(ad);
+                return true;
+            }
+           
 
-        
+
+        }
+
+        private bool NoContent()
+        {
+            throw new NotImplementedException();
+        }
+
+        private bool NotFound()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
